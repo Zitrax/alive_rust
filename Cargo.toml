@@ -1,0 +1,7 @@
+[package]
+name = "alive"
+version = "0.1.0"
+authors = ["Daniel Bengtsson <daniel@bengtssons.info>"]
+
+[dependencies]
+oping = "0.3.1"

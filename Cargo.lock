@@ -1,0 +1,23 @@
+[root]
+name = "alive"
+version = "0.1.0"
+dependencies = [
+ "oping 0.3.1 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "libc"
+version = "0.2.23"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "oping"
+version = "0.3.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "libc 0.2.23 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[metadata]
+"checksum libc 0.2.23 (registry+https://github.com/rust-lang/crates.io-index)" = "e7eb6b826bfc1fdea7935d46556250d1799b7fe2d9f7951071f4291710665e3e"
+"checksum oping 0.3.1 (registry+https://github.com/rust-lang/crates.io-index)" = "a54ee96718f75777399223bada2001bf6772ab35dd0d426cb27d6fb988499327"
