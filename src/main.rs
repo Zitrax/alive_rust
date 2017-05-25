@@ -36,6 +36,7 @@ fn main() {
 
         let res = try!(ping.send());
 
+        // Clear screen
         print!("{}[2J", 27 as char);
         for r in res {
             println!("{}: {} ms", r.hostname, r.latency_ms);
